@@ -1,0 +1,33 @@
+/** Step one **/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+/** Step two **/
+h1,h2,h3 {
+    font-family: "Open Sans", sans-serif;
+}
+/** Step three **/
+h1 {
+    font-size: 46px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: aqua;
+}
+/** Step four **/
+p,ul,a {
+    font-family: "Montserrat",sans-serif;
+}
+/** Step five **/
+p >span {
+    color: blue;
+}
+/** Step six **/
+h3 {
+    font-size: 3em;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.9);
+}
